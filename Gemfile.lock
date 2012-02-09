@@ -1,8 +1,9 @@
 GIT
   remote: https://github.com/pgr0ss/librarian.git
-  revision: 560437d2faa01e646865dff4f352c24e7b1e9d0c
+  revision: 2fb6fdc13869a30ddbb345cb8979b65d14904e13
   specs:
     librarian (0.1.0)
+      activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
       json
       riak-client (>= 1.0.0)

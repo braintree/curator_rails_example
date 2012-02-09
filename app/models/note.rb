@@ -1,7 +1,5 @@
 class Note
   include Librarian::Model
-  extend ActiveModel::Naming
-  include ActiveModel::Conversion
 
   attr_accessor :id, :title, :description, :user_id
 
