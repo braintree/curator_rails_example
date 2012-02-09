@@ -14,4 +14,8 @@ class NotesController < ActionController::Base
     NoteRepository.save(note)
     redirect_to notes_path
   end
+
+  def show
+    @note = NoteRepository.find_by_id(params[:id])
+  end
 end
