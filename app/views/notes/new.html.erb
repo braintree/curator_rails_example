@@ -1,0 +1,9 @@
+<%= form_for @note, :url => { :action => "create" } do |f| %>
+  <dl>
+    <dt><%= f.label :title %></dt>
+    <dd><%= f.text_field :title %></dd>
+    <dt><%= f.label :description %></dt>
+    <dd><%= f.text_area :description, :size => "60x12" %></dd>
+  </dl>
+  <%= f.submit "Create" %>
+<% end %>

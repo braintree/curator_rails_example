@@ -1,0 +1,6 @@
+development:
+  :http_port: 8098
+  :host: localhost
+test:
+  :http_port: 8098
+  :host: localhost
