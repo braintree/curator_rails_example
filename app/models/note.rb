@@ -8,8 +8,4 @@ class Note
     self.description = params[:description]
     self.user_id = params[:user_id]
   end
-
-  def persisted?
-    id.present?
-  end
 end
