@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/pgr0ss/librarian.git
-  revision: 2fb6fdc13869a30ddbb345cb8979b65d14904e13
+  revision: 037ae8a79feaf53f55a0b48613def773e4eb4e70
   specs:
     librarian (0.1.0)
       activemodel (>= 3.0.0)
@@ -95,7 +95,7 @@ GEM
       builder (>= 2.1.2)
       i18n (>= 0.4.0)
       multi_json (~> 1.0.0)
-    sass (3.1.14)
+    sass (3.1.15)
     sass-rails (3.2.4)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
