@@ -4,10 +4,10 @@ This is an example application for the {librarian}[librarian] model and reposito
 
 The important bits are:
 
-1. Adding the gem to the {Gemfile}[tree/master/Gemfile]
+1. Adding the gem to the {Gemfile}[https://github.com/pgr0ss/librarian_rails_example/tree/master/Gemfile]
 
-2. Adding app/repositories to {application.rb}[tree/master/config/application.rb]
+2. Adding app/repositories to {application.rb}[https://github.com/pgr0ss/librarian_rails_example/tree/master/config/application.rb]
 
-3. The {Note}[tree/master/app/models/note.rb] model and {NoteRepository}[tree/master/app/repositories/note_repository.rb]
+3. The {Note}[tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/repositories/note_repository.rb]
 
-4. The {NotesController}[tree/master/app/controllers/notes_controller.rb] and {view}[tree/master/app/views/notes/]
+4. The {NotesController}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/views/notes/]
