@@ -8,6 +8,6 @@ The important bits are:
 
 2. Adding app/repositories to {application.rb}[https://github.com/pgr0ss/librarian_rails_example/tree/master/config/application.rb]
 
-3. The {Note}[tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/repositories/note_repository.rb]
+3. The {Note}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/repositories/note_repository.rb]
 
 4. The {NotesController}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/views/notes/]
