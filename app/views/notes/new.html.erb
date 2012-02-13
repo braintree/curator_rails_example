@@ -1,5 +1,5 @@
 <h1>New Note</h1>
-<%= form_for @note, :url => { :action => "create" } do |f| %>
+<%= form_for @note do |f| %>
   <dl>
     <dt><%= f.label :title %></dt>
     <dd><%= f.text_field :title %></dd>
