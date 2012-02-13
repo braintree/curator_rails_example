@@ -1,4 +1,4 @@
-LibrarianRailsExample::Application.routes.draw do
+CuratorRailsExample::Application.routes.draw do
   resources :notes
   root :to => 'notes#index'
 

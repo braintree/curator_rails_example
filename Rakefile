@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-LibrarianRailsExample::Application.load_tasks
+CuratorRailsExample::Application.load_tasks

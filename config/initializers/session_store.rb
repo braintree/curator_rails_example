@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-LibrarianRailsExample::Application.config.session_store :cookie_store, key: '_librarian_rails_example_session'
+CuratorRailsExample::Application.config.session_store :cookie_store, key: '_curator_rails_example_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# LibrarianRailsExample::Application.config.session_store :active_record_store
+# CuratorRailsExample::Application.config.session_store :active_record_store

@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/pgr0ss/librarian.git
-  revision: 037ae8a79feaf53f55a0b48613def773e4eb4e70
-  specs:
-    librarian (0.1.0)
-      activemodel (>= 3.0.0)
-      activesupport (>= 3.0.0)
-      json
-      riak-client (>= 1.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,6 +38,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
+    curator (0.1.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      json
+      riak-client (>= 1.0.0)
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
@@ -119,8 +114,8 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  curator (= 0.1.0)
   jquery-rails
-  librarian!
   rails (= 3.2.1)
   sass-rails (~> 3.2.3)
   uglifier (>= 1.0.3)

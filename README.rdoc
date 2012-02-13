@@ -1,13 +1,13 @@
-== Librarian Example Rails Application
+== Curator Example Rails Application
 
-This is an example application for the {librarian}[https://github.com/pgr0ss/librarian] model and repository framework. It shows a list of notes, and allows the user to add new notes. 
+This is an example application for the {curator}[https://github.com/braintree/curator] model and repository framework. It shows a list of notes, and allows the  to add new notes. 
 
 The important bits are:
 
-1. Adding the gem to the {Gemfile}[https://github.com/pgr0ss/librarian_rails_example/tree/master/Gemfile]
+1. Adding the gem to the {Gemfile}[https://github.com/braintree/curator_rails_example/tree/master/Gemfile]
 
-2. Adding app/repositories to {application.rb}[https://github.com/pgr0ss/librarian_rails_example/tree/master/config/application.rb]
+2. Adding app/repositories to {application.rb}[https://github.com/braintree/curator_rails_example/tree/master/config/application.rb]
 
-3. The {Note}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/repositories/note_repository.rb]
+3. The {Note}[https://github.com/braintree/curator_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/braintree/curator_rails_example/tree/master/app/repositories/note_repository.rb]
 
-4. The {NotesController}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/pgr0ss/librarian_rails_example/tree/master/app/views/notes/]
+4. The {NotesController}[https://github.com/braintree/curator_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/braintree/curator_rails_example/tree/master/app/views/notes/]

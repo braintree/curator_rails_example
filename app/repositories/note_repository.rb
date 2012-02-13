@@ -1,5 +1,5 @@
 class NoteRepository
-  include Librarian::Repository
+  include Curator::Repository
 
   indexed_fields :user_id
 end
