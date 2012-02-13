@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
 gem 'curator', '0.1.0'
+gem 'dynamic_form', '1.1.4'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

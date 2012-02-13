@@ -1,5 +1,6 @@
 <h1>New Note</h1>
 <%= form_for @note do |f| %>
+  <%= f.error_messages %>
   <dl>
     <dt><%= f.label :title %></dt>
     <dd><%= f.text_field :title %></dd>

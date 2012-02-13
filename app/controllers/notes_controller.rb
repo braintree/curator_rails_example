@@ -10,9 +10,13 @@ class NotesController < ActionController::Base
   end
 
   def create
-    note = Note.new(request.POST[:note].merge(:user_id => USER_ID))
-    NoteRepository.save(note)
-    redirect_to notes_path
+    @note = Note.new(request.POST[:note].merge(:user_id => USER_ID))
+    if @note.valid?
+      NoteRepository.save(@note)
+      redirect_to notes_path
+    else
+      render :new
+    end
   end
 
   def show
