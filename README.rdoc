@@ -6,8 +6,6 @@ The important bits are:
 
 1. Adding the gem to the {Gemfile}[https://github.com/braintree/curator_rails_example/tree/master/Gemfile]
 
-2. Adding app/repositories to {application.rb}[https://github.com/braintree/curator_rails_example/tree/master/config/application.rb]
+2. The {Note}[https://github.com/braintree/curator_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/braintree/curator_rails_example/tree/master/app/repositories/note_repository.rb]
 
-3. The {Note}[https://github.com/braintree/curator_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/braintree/curator_rails_example/tree/master/app/repositories/note_repository.rb]
-
-4. The {NotesController}[https://github.com/braintree/curator_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/braintree/curator_rails_example/tree/master/app/views/notes/]
+3. The {NotesController}[https://github.com/braintree/curator_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/braintree/curator_rails_example/tree/master/app/views/notes/]
