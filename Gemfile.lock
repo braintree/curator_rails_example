@@ -38,7 +38,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
-    curator (0.1.0)
+    curator (0.3.0)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
       json
@@ -115,7 +115,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  curator (= 0.1.0)
+  curator (= 0.3.0)
   dynamic_form (= 1.1.4)
   jquery-rails
   rails (= 3.2.1)
