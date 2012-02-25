@@ -6,6 +6,9 @@
     <dd><%= f.text_field :title %></dd>
     <dt><%= f.label :description %></dt>
     <dd><%= f.text_area :description, :size => "60x12" %></dd>
+    <p>If you create the note at version 0, it will run through migration 1 the next time it is read. If you create it at version 1, no migrations will run.</p>
+    <dt><%= f.label :version %></dt>
+    <dd><%= f.select :version, :options => [0, 1] %></dd>
   </dl>
   <%= f.submit "Create" %>
 <% end %>
