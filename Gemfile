@@ -11,7 +11,8 @@ group :assets do
 end
 
 group :test, :development do
-    gem 'rspec-rails', '2.8.1'
+  gem 'rake_commit', '0.12.0'
+  gem 'rspec-rails', '2.8.1'
 end
 
 gem 'jquery-rails'
