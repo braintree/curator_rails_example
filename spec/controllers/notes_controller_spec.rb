@@ -11,7 +11,7 @@ describe NotesController do
 
       get :index
 
-      assigns(:notes).sort_by(&:id).should == [note1, note2].sort_by(&:id)
+      assigns(:notes).map { |n| n.id.to_s}.sort.should == [note1, note2].map { |n| n.id.to_s}.sort
     end
   end
 

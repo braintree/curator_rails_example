@@ -1,6 +1,6 @@
 development:
-  :http_port: 8098
   :host: localhost
+  :port: 27017
 test:
-  :http_port: 8098
   :host: localhost
+  :port: 27017

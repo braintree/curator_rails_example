@@ -8,13 +8,6 @@ require 'rspec/autorun'
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join('spec/support/**/*.rb')].each {|f| require f}
 
-Curator.configure(:resettable_riak) do |config|
-  config.bucket_prefix = 'curator_rails_example'
-  config.environment = 'test'
-  config.migrations_path = Rails.root.join('db/migrate')
-  config.riak_config_file = Rails.root.join('config/riak.yml')
-end
-
 RSpec.configure do |config|
   config.before(:suite) do
     Curator.data_store.remove_all_keys
