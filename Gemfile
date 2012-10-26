@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'curator', '0.3.0'
+gem 'curator', '0.8.1'
 gem 'dynamic_form', '1.1.4'
 
 group :assets do
@@ -15,4 +15,4 @@ group :test, :development do
   gem 'rspec-rails', '2.8.1'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.1.3'
