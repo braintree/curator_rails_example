@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.1'
-gem 'curator', '0.8.1'
+gem 'curator', '0.9.0'
 gem 'dynamic_form', '1.1.4'
 
 group :assets do
