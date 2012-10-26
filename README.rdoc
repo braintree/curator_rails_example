@@ -1,6 +1,6 @@
 == Curator Example Rails Application
 
-This is an example application for the {curator}[https://github.com/braintree/curator] model and repository framework. It shows a list of notes, and allows the  to add new notes. 
+This is an example application for the {curator}[https://github.com/braintree/curator] model and repository framework. It shows a list of notes, and allows you to add new notes.
 
 The important bits are:
 
@@ -9,3 +9,9 @@ The important bits are:
 2. The {Note}[https://github.com/braintree/curator_rails_example/tree/master/app/models/note.rb] model and {NoteRepository}[https://github.com/braintree/curator_rails_example/tree/master/app/repositories/note_repository.rb]
 
 3. The {NotesController}[https://github.com/braintree/curator_rails_example/tree/master/app/controllers/notes_controller.rb] and {view}[https://github.com/braintree/curator_rails_example/tree/master/app/views/notes/]
+
+4. The {UpdateDescription}[https://github.com/braintree/curator_rails_example/blob/master/db/migrate/notes/0001_update_description.rb] db migration.
+
+Note:
+
+There is also a {mongodb branch}[https://github.com/braintree/curator_rails_example/tree/mongodb], which uses mongodb instead of riak.
